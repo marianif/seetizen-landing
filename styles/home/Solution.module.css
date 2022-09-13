@@ -1,0 +1,47 @@
+.container {
+  width: 80%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  /* padding: 0 10%; */
+  margin: 0 auto;
+
+}
+
+.container h3 {
+    font-size: 8em;
+    text-align: center;
+    line-height: 90%;
+    margin-bottom: 5%;
+}
+
+.container p {
+  width: 90%;
+  text-align: justify;
+}
+
+
+.mission {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mission div {
+  flex: 1
+}
+
+/* When the browser is at least 600px and above */
+@media screen and (max-width: 768px) {
+  .cta h3 {
+    font-size: 6em;
+    text-align: center;
+    line-height: 90%;
+    margin-bottom: 5%;
+  }
+
+  .cta p {
+    width: 100%;
+    text-align: center;
+  }
+}

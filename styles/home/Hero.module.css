@@ -1,0 +1,131 @@
+.container {
+  width: 80%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  /* padding: 0 5%; */
+}
+
+.innerTop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* height: 85%; */
+  /* background-color: chartreuse; */
+  padding-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.title {
+  font-family: Prompt;
+  font-size: 4.5vw;
+  line-height: 1;
+}
+
+.innerBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.innerBottom span {
+  margin-right: 2%;
+  color: rgb(163, 163, 163);
+}
+
+.images {
+  display: flex;
+}
+
+.images div {
+  padding: 10px;
+}
+
+.column {
+  flex: 1;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageContainer {
+  position: relative;
+  width: 80%;
+  /* aspect-ratio: 1; */
+  object-fit: contain;
+  /* align-self: flex-end; */
+  overflow: hidden;
+  /* margin-top: 5%; */
+  align-self: flex-end;
+}
+
+.badges {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.badgeContainer {
+  position: relative;
+  width: 45%;
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Media Queries */
+
+/* 
+# Mobile
+only screen and (min-width: 480px)
+
+# Tablet
+only screen and (min-width: 768px) 
+
+# Desktop
+only screen and (min-width: 992px)
+
+# Huge
+only screen and (min-width: 1280px) 
+*/
+
+/* When the browser is at least 600px and above */
+@media screen and (max-width: 768px) {
+  .container {
+    /* Apply some styles */
+    flex-direction: column;
+  }
+
+  .innerTop {
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding: 20% 0;
+  }
+
+  .innerBottom {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    align-self: flex-end;
+    overflow: hidden;
+    margin-top: 5%;
+  }
+
+  .badges {
+    width: 70%;
+  }
+
+  .texts {
+    max-width: 100%;
+  }
+}

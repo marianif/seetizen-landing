@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  padding: 5%;
+}
+
+.containerReverse {
+  /* background: white; */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.column {
+  flex: 1;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  position: relative;
+  width: 80%;
+  /* height: 70vh; */
+  object-fit: cover;
+  padding: 5%;
+}
+
+/* When the browser is at least 600px and above */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}

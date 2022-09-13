@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h2 {
+  font-size: 5.5em;
+  text-align: center;
+  line-height: 100%;
+  font-family: Prompt;
+}
+
+.gradientText {
+  font-size: 7rem;
+}
+
+.badges {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+/* When the browser is at least 600px and above */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container h2 {
+    font-size: 4em;
+    text-align: center;
+    line-height: 100%;
+  }
+
+  .container span {
+    font-size: 5rem;
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "heading": "Eventi",
+    "paragraph": "Crea, cerca, condividi eventi ed iniziative con tutta la città",
+    "icon": "events"
+  },
+  {
+    "heading": "Search",
+    "paragraph": "Cerca persone, associazioni, collettivi e tanto altro",
+    "icon": "search"
+  },
+
+  {
+    "heading": "Gruppi",
+    "paragraph": "Crea gruppi e gestisci molteplici account come admin o editor",
+    "icon": "group"
+  },
+  {
+    "heading": "News",
+    "paragraph": "Pubblica articoli, storie e post. Fai parlare la città",
+    "icon": "news"
+  }
+]

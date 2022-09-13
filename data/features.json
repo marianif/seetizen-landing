@@ -1,0 +1,74 @@
+[
+  {
+    "img": "/../public/images/hero.png",
+    "heading": "Mappa Sociale",
+    "label": "La città a portata di mano",
+    "impressum": "Stanchi di contenuti irrilevanti e feed infiniti? Provate il modo interattivo di esplorare e condividere il vostro mondo. Informazioni in tempo reale sulle mappe.",
+    "previews": [
+      {
+        "heading": "Tutte le iniziative della città",
+        "paragraph": "Dagli eventi più grandi a un gruppo di amici che si ritrova al parco, chiunque può usare la mappa sociale per condividere la propria iniziativa e coinvolgere altre persone"
+      },
+      {
+        "heading": "I tuoi interessi a portata di mappa",
+        "paragraph": "Basta contenuti irrilevanti e feed infiniti. Filtra la programmazione cittadina per i temi che più ti interessano"
+      },
+      {
+        "heading": "Programmazione real-time e nel tempo",
+        "paragraph": "Devi organizzare il weekend o sei già in giro e cerchi sul momento qualcosa da fare? La mappa sociale pensa anche a questo"
+      }
+    ]
+  },
+  {
+    "img": "/../public/images/hero.png",
+    "heading": "Activity Sharing",
+    "label": "Condividi le iniziative",
+    "impressum": "Con Seetizen puoi organizzare il tuo tempo e incontrare amici. Se per te i gruppi di whatsapp non sono il massimo per organizzarsi o a volte ti senti in imbarazzo ",
+    "previews": [
+      {
+        "heading": "Rompi il ghiaccio!",
+        "paragraph": "Coinvolgere persone che conosciamo appena o non vediamo da tempo può procurare un certo imbarazzo. Grazie a seetizen puoi condividere un'iniziativa che ti interessa senza l'invasività di whatsapp."
+      },
+      {
+        "heading": "Fai girare!",
+        "paragraph": "Hai creato un'iniziativa o partecipi a una che ti interessa? Puoi farla girare subito ai chi ti segue, senza dover competere per un po'di visibilità nei feed infiniti di Facebook e Instagram"
+      },
+      {
+        "heading": "Non dimenticarti più niente!",
+        "paragraph": "Partecipi a un evento? Un'amica te ne ha girato uno? Basta dispersione, trovi tutto perfettamente calendarizzato, così d anon dimenticarti più niente di quello che succede in città"
+      }
+    ]
+  },
+  {
+    "img": "/../public/images/hero.png",
+    "heading": "City Discovery",
+    "label": "Funzione di ricerca locale",
+    "impressum": "I social attuali hanno scarse funzionalità di ricerca, questo genera dispersione e spesso l'impossibilità di scoprire la città. Abbiamo semplificato il processo per trovare di persone, gruppi, collettivi e altre soggettività urbane",
+    "previews": [
+      {
+        "heading": "Scopri",
+        "paragraph": "Persone, gruppi, collettivi, associazioni e tanto altro. Con la funzionalità discover scoprili tutti con facilità."
+      },
+      {
+        "heading": "Cerca",
+        "paragraph": "Immagina di cerca qualcosa legato all'arte. Digita 'Art..' e subito ti trovi una lista di profili (singoli o gruppi) associati a quella label. La ricerca, semplice"
+      },
+      {
+        "heading": "Fatti trovare",
+        "paragraph": "Connettiti con facilità con il resto della città. Ti basterà inserire una label e chiunque cerca quel temrine ti vedrà comparire tra i risultati di ricerca"
+      }
+    ]
+  },
+  {
+    "img": "/../public/images/hero.png",
+    "heading": "Urban Storytelling",
+    "label": "Fai parlare la città",
+    "impressum": "Le città sono luoghi fatti di attività, momenti e pensieri che meritano uno spazio narrativo attualmente negato. Facilitare la diffusione di storie appare come una soluzione molto preziosa per dare significato e analizzare le città in cui viviamo.",
+    "previews": [
+      {
+        "heading": "narrazione urbane",
+        "paragraph": "Sei un collettivo o una persona singola che ha voglia di scrivere sulla e alla città? Raccontare le proprie iniziative, parlare di quelle storie che non si leggono sui giornali, aggiornare le persone sui traguardi della tua associazione o far conoscere l'attività'? Oppure perché no, lanciarne una nuova. Noi una mezza idea l'abbiamo, speriamo ti piaccia"
+      }
+    ]
+  }
+]

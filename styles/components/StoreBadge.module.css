@@ -1,0 +1,22 @@
+.container {
+  background-color: whitesmoke;
+  display: flex;
+  flex: 1;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-right: 5%;
+  padding-left: 5%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.container a {
+  margin-left: 5%;
+  color: #000;
+  text-transform: capitalize;
+  font-size: 1.1em;
+}
+
+.container p {
+  color: #000;
+}

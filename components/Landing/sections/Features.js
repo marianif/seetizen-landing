@@ -4,11 +4,13 @@ import GradientHeadline from "../GradientHeadline"
 import features from "@/data/features"
 import React from "react"
 
+const img = require("../../../public/images/hero.png")
+
 const Features = () => {
   return (
     <div className={styles.wrapper}>
       {features.slice(0, 3).map((item, index) => {
-        const { img, previews, heading, label, impressum } = item
+        const { previews, heading, label, impressum } = item
         return (
           <React.Fragment key={index}>
             <GradientHeadline label={label} number={index + 1}>
@@ -36,7 +38,7 @@ const Features = () => {
       <div className={styles.impressum}>
         <p className={`p-md`}>{features[3].impressum}</p>
       </div>
-      <Container img={features[3].img} reverse>
+      <Container img={img} reverse>
         <span className={styles.previewContainer}>
           <h4>{features[3].previews[0].heading}</h4>
           <p className="p-sm">{features[3].previews[0].paragraph}</p>

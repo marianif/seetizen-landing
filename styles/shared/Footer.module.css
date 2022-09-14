@@ -49,13 +49,16 @@
     width: 95%;
     height: 20vh;
     margin-bottom: 5%;
+    padding-left: 2vw;
+    padding-top: 2vw;
   }
   .nav ul li {
     display: block;
     margin-bottom: 5%;
+    font-size: 0.9rem;
   }
 
   .logoContainer {
-    width: 9vw;
+    width: 10vw;
   }
 }

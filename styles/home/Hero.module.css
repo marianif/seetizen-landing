@@ -106,14 +106,14 @@ only screen and (min-width: 1280px)
     margin-bottom: 5vh;
   }
 
-  .innerBottom {
+  /* .innerBottom {
     flex-direction: column;
     background-color: bisque;
-  }
+  } */
 
   .imageContainer {
     position: relative;
-    width: 75vw;
+    width: 80vw;
     /* height: 50vh; */
     object-fit: contain;
     overflow: hidden;
@@ -126,6 +126,6 @@ only screen and (min-width: 1280px)
   }
 
   .title {
-    font-size: 3rem;
+    font-size: 10vw;
   }
 }

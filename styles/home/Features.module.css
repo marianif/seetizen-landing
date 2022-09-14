@@ -24,7 +24,7 @@
 .impressum {
   width: 55%;
   margin: 0 auto;
-  padding-top: 2vw
+  padding-top: 1vw;
 }
 
 .impressum p {
@@ -35,5 +35,14 @@
 @media screen and (max-width: 768px) {
   .previewContainer {
     width: 100%;
+  }
+
+  .impressum {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .impressum p {
+    text-align: justify;
   }
 }

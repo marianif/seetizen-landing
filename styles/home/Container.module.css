@@ -13,8 +13,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  /* align-items: center; */
   padding: 5%;
 }
 
@@ -38,6 +38,10 @@
 /* When the browser is at least 600px and above */
 @media screen and (max-width: 768px) {
   .container {
+    flex-direction: column;
+  }
+
+  .containerReverse {
     flex-direction: column;
   }
 }

@@ -1,7 +1,7 @@
 // Sections
 import Hero from "./sections/Hero"
 import FeaturesGrid from "./sections/FeaturesGrid"
-import Solution from "./sections/Solution"
+import Mission from "./sections/Mission"
 import Features from "./sections/Features"
 import Benefits from "./sections/Benefits"
 import CallToAction from "./sections/CallToAction"
@@ -17,7 +17,7 @@ import AppStoreBadge from "./AppStoreBadge"
 export {
   Hero,
   FeaturesGrid,
-  Solution,
+  Mission,
   Features,
   Benefits,
   CallToAction,

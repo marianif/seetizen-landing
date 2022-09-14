@@ -2,7 +2,7 @@ import { Layout } from "../components"
 import {
   Hero,
   FeaturesGrid,
-  Solution,
+  Mission,
   Features,
   Benefits,
   CallToAction,
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Layout headerType="landing">
       <Hero />
-      <Solution />
+      <Mission />
       <FeaturesGrid />
       <Features />
       <Benefits />

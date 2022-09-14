@@ -12,12 +12,12 @@ const Footer = () => {
           <ul>
             <li>
               <a>
-                <Link href="/">privacy policy</Link>
+                <Link href="/">privacy</Link>
               </a>
             </li>
             <li>
               <a>
-                <Link href="/">terms and conditions</Link>
+                <Link href="/">terms</Link>
               </a>
             </li>
           </ul>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.container}>
-        <div />
+        {/* <div  /> */}
         <p className={styles.credits}>© Seetizen 2022. Made in Turin</p>
       </div>
     </div>

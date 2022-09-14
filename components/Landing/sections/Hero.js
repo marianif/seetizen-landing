@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className={styles.innerBottom}>
+      {/* <div className={styles.innerBottom}>
         <span>Made with top level technologies: </span>
         <div className={styles.images}>
           {IMAGES.map((image, index) => {
@@ -52,7 +52,7 @@ const Hero = () => {
             )
           })}
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -6,14 +6,13 @@
   /* justify-content: space-evenly; */
   /* padding: 0 10%; */
   margin: 0 auto;
-
 }
 
 .container h3 {
-    font-size: 8em;
-    text-align: center;
-    line-height: 90%;
-    margin-bottom: 5%;
+  font-size: 8em;
+  text-align: center;
+  line-height: 90%;
+  margin-bottom: 5%;
 }
 
 .container p {
@@ -21,27 +20,39 @@
   text-align: justify;
 }
 
-
 .mission {
   display: flex;
   justify-content: space-evenly;
 }
 
 .mission div {
-  flex: 1
+  flex: 1;
 }
 
 /* When the browser is at least 600px and above */
 @media screen and (max-width: 768px) {
-  .cta h3 {
-    font-size: 6em;
+  .container {
+    margin-bottom: 5vh;
+  }
+  .container h3 {
+    font-size: 5.5em;
     text-align: center;
-    line-height: 90%;
+    line-height: 1;
     margin-bottom: 5%;
   }
 
-  .cta p {
+  .gradient {
+    font-size: 6rem;
+  }
+
+  .container p {
     width: 100%;
     text-align: center;
+    text-align: justify;
+  }
+
+  .mission {
+    display: flex;
+    flex-direction: column;
   }
 }

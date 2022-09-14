@@ -20,3 +20,10 @@
 .container p {
   color: #000;
 }
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 5%;
+  }
+}

@@ -43,7 +43,7 @@ const Features = () => {
       <div className={styles.impressum}>
         <p className={`p-md`}>{features[3].impressum}</p>
       </div>
-      <Container img={MOCKUPS[3].img} reverse>
+      <Container img={MOCKUPS[3]} reverse>
         <span className={styles.previewContainer}>
           <h4>{features[3].previews[0].heading}</h4>
           <p className="p-sm">{features[3].previews[0].paragraph}</p>

@@ -24,6 +24,10 @@
   line-height: 1;
 }
 
+.comingSoon {
+  font-size: 1.1rem;
+}
+
 /* .innerBottom {
   display: flex;
   justify-content: center;

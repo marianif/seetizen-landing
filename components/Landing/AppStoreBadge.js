@@ -4,7 +4,7 @@ const AppStoreBadge = ({ title, icon }) => {
   return (
     <div className={styles.container}>
       <span>{icon}</span>
-      <a href="http://helloworld.com" target="_blank" rel="noreferrer">
+      <a href="" target="_blank" rel="noreferrer">
         <p>{title}</p>
       </a>
     </div>

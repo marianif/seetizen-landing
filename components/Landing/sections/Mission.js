@@ -10,19 +10,18 @@ const Mission = () => {
       <div className={styles.mission}>
         <div>
           <p className="p-md">
-            Seetizen nasce com obiettivo di rimettere il territorio e le
-            relazioni di nuovo al centro e rispondere ai bisogni sociali,
-            culturali e aggregativi delle comunità locali. I social più famosi
-            non nascono con intenzione di connettere le persone nella vita reale
-            e che sitratti degli eventi di Facebook
+            Seetizen nasce come uno strumento di pianificazione, attivazione e
+            connessione urbana con lo scopo di rimettere il territorio e le
+            relazioni di nuovo al centro rispondendo ai bisogni sociali,
+            culturali e aggregativi delle comunità locali.
           </p>
         </div>
         <div>
           <p className="p-md">
-            o dei post di instragram e si dimostrano strumenti che hanno
-            dimostato tutti i propri limiti quando è comunicare e farsi
-            conoscere nella propria dimensione locale. Seetizen nasce per
-            offrire un servizio alternativo per rispondere a queste esigenze
+            Seetizen facilita la ricerca di persone e realtà sul territorio, di
+            diffusione e condivisione delle iniziative in città e fornisce allo
+            stesso tempo uno strumento di storytelling urbano aperto e
+            partecipativo
           </p>
         </div>
       </div>

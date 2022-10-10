@@ -1,4 +1,4 @@
-import { Layout } from "../components"
+import { FloatingBar, Layout } from "../components"
 import {
   Hero,
   FeaturesGrid,
@@ -17,6 +17,7 @@ export default function Home() {
       <Features />
       <Benefits />
       <CallToAction />
+      <FloatingBar />
     </Layout>
   )
 }

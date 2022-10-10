@@ -1,9 +1,9 @@
 [
   {
-    "img": "/../public/images/hero.png",
+    "img": "/../public/images/social-map.png",
     "heading": "Mappa Sociale",
     "label": "La città a portata di mano",
-    "impressum": "Stanchi di contenuti irrilevanti e feed infiniti? Provate il modo interattivo di esplorare e condividere il vostro mondo. Informazioni in tempo reale sulle mappe.",
+    "impressum": "Una rete di geografie umane e sociali finalmente svelata alla collettività al fine di creare le condizioni abilitanti e partecipative per mettersi in contatto con la dimenzione locale immergendosi nei sui spazi fisici di azione, condivisione e partecipazione",
     "previews": [
       {
         "heading": "Tutte le iniziative della città",
@@ -11,7 +11,7 @@
       },
       {
         "heading": "I tuoi interessi a portata di mappa",
-        "paragraph": "Basta contenuti irrilevanti e feed infiniti. Filtra la programmazione cittadina per i temi che più ti interessano"
+        "paragraph": "Basta contenuti irrilevanti e feed infiniti. Filtra la programmazione cittadina per i temi che più ti interessano e immergiti in ciò che la comunità ha da offrire"
       },
       {
         "heading": "Programmazione real-time e nel tempo",
@@ -20,10 +20,10 @@
     ]
   },
   {
-    "img": "/../public/images/hero.png",
+    "img": "/../public/images/share.png",
     "heading": "Activity Sharing",
     "label": "Condividi le iniziative",
-    "impressum": "Con Seetizen puoi organizzare il tuo tempo e incontrare amici. Se per te i gruppi di whatsapp non sono il massimo per organizzarsi o a volte ti senti in imbarazzo ",
+    "impressum": "Un agenda esperienziale condivisa dove i cittadini contribuiscono attivamente alla diffusione della creatività e della produzione urbana, agevolando nuove forme di condivisione culturale e coinvolgimento sul territorio",
     "previews": [
       {
         "heading": "Rompi il ghiaccio!",
@@ -40,8 +40,8 @@
     ]
   },
   {
-    "img": "/../public/images/hero.png",
-    "heading": "City Discovery",
+    "img": "/../public/images/discovery.png",
+    "heading": "Urban Discovery",
     "label": "Funzione di ricerca locale",
     "impressum": "I social attuali hanno scarse funzionalità di ricerca, questo genera dispersione e spesso l'impossibilità di scoprire la città. Abbiamo semplificato il processo per trovare di persone, gruppi, collettivi e altre soggettività urbane",
     "previews": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "img": "/../public/images/hero.png",
+    "img": "/../public/images/urban-stories.png",
     "heading": "Urban Storytelling",
     "label": "Fai parlare la città",
     "impressum": "Le città sono luoghi fatti di attività, momenti e pensieri che meritano uno spazio narrativo attualmente negato. Facilitare la diffusione di storie appare come una soluzione molto preziosa per dare significato e analizzare le città in cui viviamo.",

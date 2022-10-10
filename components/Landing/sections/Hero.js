@@ -4,12 +4,6 @@ import { AppStoreBadge } from "@/components/Landing"
 import { FaGooglePlay, FaApple } from "react-icons/fa"
 
 const IMAGE = require("public/images/hero-1.png")
-// const IMAGE = require("public/images/hero.png");
-const IMAGES = [
-  require("public/images/placeholder.png"),
-  require("public/images/placeholder.png"),
-  require("public/images/placeholder.png"),
-]
 
 // Icons properties
 const SIZE = 24
@@ -44,18 +38,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* <div className={styles.innerBottom}>
-        <span>Made with top level technologies: </span>
-        <div className={styles.images}>
-          {IMAGES.map((image, index) => {
-            return (
-              <div key={index}>
-                <Image src={image} layout="intrinsic" width={200} height={30} />
-              </div>
-            )
-          })}
-        </div>
-      </div> */}
     </div>
   )
 }

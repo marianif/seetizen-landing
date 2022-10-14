@@ -48,6 +48,14 @@ const Features = () => {
           <h4>{features[3].previews[0].heading}</h4>
           <p className="p-sm">{features[3].previews[0].paragraph}</p>
         </span>
+        <span className={styles.previewContainer}>
+          <h4>{features[3].previews[1].heading}</h4>
+          <p className="p-sm">{features[3].previews[1].paragraph}</p>
+        </span>
+        <span className={styles.previewContainer}>
+          <h4>{features[3].previews[2].heading}</h4>
+          <p className="p-sm">{features[3].previews[2].paragraph}</p>
+        </span>
       </Container>
     </div>
   )

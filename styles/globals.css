@@ -67,14 +67,6 @@ p {
   font-family: Dosis;
 }
 
-button {
-  padding: 10px 25px;
-  border-radius: 10px;
-  color: white;
-  font-size: medium;
-  cursor: pointer;
-}
-
 /* ------------ utilities ------------ */
 
 .p-sm {

@@ -24,6 +24,58 @@
   width: 25%;
 }
 
+.form {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 20vw;
+  background-color: #202020;
+  border: 0.8px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: Dosis;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.formButton {
+  /* width: 5vw; */
+  background-color: #202020;
+  color: white;
+  font-family: Bebas Neue;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0.8px solid white;
+  padding: 5px 2rem;
+}
+
+.formButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #202020;
+}
+
+.formButton:disabled {
+  background-color: transparent;
+  color: #585757;
+}
+
+.success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  margin-top: 1vw;
+}
+
+.success p {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
 /* Media queries */
 @media screen and (max-width: 768px) {
   .container {

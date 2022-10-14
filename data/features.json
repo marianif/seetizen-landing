@@ -21,21 +21,21 @@
   },
   {
     "img": "/../public/images/share.png",
-    "heading": "Activity Sharing",
+    "heading": "Partecipazione Attiva",
     "label": "Condividi le iniziative",
-    "impressum": "Un agenda esperienziale condivisa dove i cittadini contribuiscono attivamente alla diffusione della creatività e della produzione urbana, agevolando nuove forme di condivisione culturale e coinvolgimento sul territorio",
+    "impressum": "Un agenda esperienziale condivisa dove i cittadini contribuiscono attivamente alla diffusione della creatività e della produzione urbana, agevolando nuove forme di condivisione e coinvolgimento sul territorio",
     "previews": [
       {
         "heading": "Rompi il ghiaccio!",
-        "paragraph": "Coinvolgere persone che conosciamo appena o non vediamo da tempo può procurare un certo imbarazzo. Grazie a seetizen puoi condividere un'iniziativa che ti interessa senza l'invasività di whatsapp."
+        "paragraph": "Senza l'invasività di whatsapp coinvolgi chi vuoi, invita chi c'è. Un evento condiviso è una chance per socializzare"
       },
       {
         "heading": "Fai girare!",
-        "paragraph": "Hai creato un'iniziativa o partecipi a una che ti interessa? Puoi farla girare subito ai chi ti segue, senza dover competere per un po'di visibilità nei feed infiniti di Facebook e Instagram"
+        "paragraph": "C'è un evento che ti piace o lo hai organizzato? Non perderti dietro un feed, fallo sapere ovunque senza limitazioni"
       },
       {
         "heading": "Non dimenticarti più niente!",
-        "paragraph": "Partecipi a un evento? Un'amica te ne ha girato uno? Basta dispersione, trovi tutto perfettamente calendarizzato, così d anon dimenticarti più niente di quello che succede in città"
+        "paragraph": "La semplicità è la nostra forza, è già tutto sul tuo calendario, non perderti a cercare, ciò che ti interessa è già calendarizzato e a portata di mano"
       }
     ]
   },
@@ -46,16 +46,16 @@
     "impressum": "I social attuali hanno scarse funzionalità di ricerca, questo genera dispersione e spesso l'impossibilità di scoprire la città. Abbiamo semplificato il processo per trovare di persone, gruppi, collettivi e altre soggettività urbane",
     "previews": [
       {
-        "heading": "Scopri",
-        "paragraph": "Persone, gruppi, collettivi, associazioni e tanto altro. Con la funzionalità discover scoprili tutti con facilità."
+        "heading": "Scopriamoci",
+        "paragraph": "Con la funzionalità discover scopri tutto facilmente. Persone, gruppi, collettivi, associazioni e tanto di più in città"
       },
       {
-        "heading": "Cerca",
-        "paragraph": "Immagina di cerca qualcosa legato all'arte. Digita 'Art..' e subito ti trovi una lista di profili (singoli o gruppi) associati a quella label. La ricerca, semplice"
+        "heading": "Cerchiamoci",
+        "paragraph": "La ricerca, semplice: Digita 'Art..' e trova subito attorno a te chi l'arte la fa, che ne sai, magari ti innamori a una mostra indipendente "
       },
       {
-        "heading": "Fatti trovare",
-        "paragraph": "Connettiti con facilità con il resto della città. Ti basterà inserire una label e chiunque cerca quel temrine ti vedrà comparire tra i risultati di ricerca"
+        "heading": "Troviamoci",
+        "paragraph": "Fai qualcosa di interessante o vuoi scoprire chi fa ciò che ti interessa? Abbiamo facilitato la ricerca, quindi cerchiamoci! Connettiti con facilmente. con tutta la città"
       }
     ]
   },
@@ -63,11 +63,19 @@
     "img": "/../public/images/urban-stories.png",
     "heading": "Urban Storytelling",
     "label": "Fai parlare la città",
-    "impressum": "Le città sono luoghi fatti di attività, momenti e pensieri che meritano uno spazio narrativo attualmente negato. Facilitare la diffusione di storie appare come una soluzione molto preziosa per dare significato e analizzare le città in cui viviamo.",
+    "impressum": "Le città sono luoghi fatti di attività, momenti e pensieri che meritano uno spazio narrativo inedito. Facilitare la diffusione di storie appare come una soluzione molto preziosa per dare significato e analizzare le città in cui viviamo.",
     "previews": [
       {
-        "heading": "narrazione urbane",
-        "paragraph": "Sei un collettivo o una persona singola che ha voglia di scrivere sulla e alla città? Raccontare le proprie iniziative, parlare di quelle storie che non si leggono sui giornali, aggiornare le persone sui traguardi della tua associazione o far conoscere l'attività'? Oppure perché no, lanciarne una nuova. Noi una mezza idea l'abbiamo, speriamo ti piaccia"
+        "heading": "narrazioni urbane",
+        "paragraph": "Un nuovo significato alla città e alle storie che essa racconta. Quali saranno le nuove prospettive di narrazione urbana, gli spazi raccontati, cosa nasconde la città e cosa aspetta di essere scoperto? "
+      },
+      {
+        "heading": "Quali storie?",
+        "paragraph": "A volte le storie più interessanti sono dietro l'angolo e spesso non lo sappiamo. Ogni angolo è una prospettiva, raccontiamola"
+      },
+      {
+        "heading": "Quali storie?",
+        "paragraph": "A volte le storie più interessanti sono dietro l'angolo e spesso non lo sappiamo. Ogni angolo è una prospettiva, raccontiamola"
       }
     ]
   }

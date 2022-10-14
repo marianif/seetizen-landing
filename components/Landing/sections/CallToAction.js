@@ -1,5 +1,5 @@
 import styles from "@/styles/home/CTA.module.css"
-import { AppStoreBadge } from "@/components/Landing"
+import ClipLoader from "react-spinners/ClipLoader"
 import { BsCheck2Circle } from "react-icons/bs"
 import { useRef, useState } from "react"
 import emailjs from "@emailjs/browser"
@@ -9,11 +9,12 @@ const EMAILJS_SERVICE_ID = process.env.EMAILJS_SERVICE_ID
 const EMAILJS_TEMPLATE_ID = process.env.EMAILJS_TEMPLATE_ID
 
 // Icons properties
-const SIZE = 24
+const COLOR = "#8ffe09"
 
 const CallToAction = () => {
   const [value, setValue] = useState("")
   const [showSuccess, setShowSuccess] = useState(false)
+  const [loading, setLoading] = useState(false)
   const [button, setButton] = useState({
     text: "Registrati",
     disabled: false,
@@ -22,6 +23,7 @@ const CallToAction = () => {
 
   const onSubmit = async (e) => {
     try {
+      setLoading(true)
       e.preventDefault()
 
       const res = await emailjs.sendForm(
@@ -39,6 +41,7 @@ const CallToAction = () => {
           disabled: true,
         })
       }
+      setLoading(false)
     } catch (error) {
       console.warn(error)
     }
@@ -60,18 +63,28 @@ const CallToAction = () => {
             className={styles.input}
             placeholder="Inserisci la tua email"
           />
-          <button
-            type="submit"
-            className={styles.formButton}
-            onClick={onSubmit}
-            disabled={button.disabled}
-          >
-            {button.text}
-          </button>
+          {!loading ? (
+            <button
+              type="submit"
+              className={styles.formButton}
+              onClick={onSubmit}
+              disabled={button.disabled}
+            >
+              {button.text}
+            </button>
+          ) : (
+            <ClipLoader
+              color={COLOR}
+              loading={loading}
+              size={36}
+              aria-label="Loading Spinner"
+              data-testid="loader"
+            />
+          )}
         </form>
         {showSuccess && (
           <div className={styles.success}>
-            <BsCheck2Circle size={30} color={"#8ffe09"} />
+            <BsCheck2Circle size={30} color={COLOR} />
             <p>Grazie per la tua registrazione!</p>
           </div>
         )}

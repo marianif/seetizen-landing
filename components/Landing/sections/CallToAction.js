@@ -33,7 +33,6 @@ const CallToAction = () => {
         EMAILJS_PUBLIC_KEY
       )
 
-      console.log(res)
       if (res.text === "OK") {
         setShowSuccess(true)
         setButton({

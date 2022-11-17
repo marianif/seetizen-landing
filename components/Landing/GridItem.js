@@ -8,7 +8,7 @@ import {
 import { HiUserGroup } from "react-icons/hi"
 import { RiRoadMapLine } from "react-icons/ri"
 
-const SIZE = 36
+const SIZE = 42
 const COLOR = "#000"
 
 const GridItem = ({ item }) => {

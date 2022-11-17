@@ -112,7 +112,7 @@ p {
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(#10b981, #ffea00);
+  background: -webkit-linear-gradient(#ff5757, #ffed1d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

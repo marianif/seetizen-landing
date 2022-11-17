@@ -18,21 +18,14 @@
   font-size: 7rem;
 }
 
-.badges {
-  display: flex;
-  justify-content: space-between;
-  width: 25%;
-}
-
 .form {
-  width: 30vw;
+  width: 40vw;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .input {
-  width: 20vw;
+  width: 30vw;
   background-color: #202020;
   border: 0.8px solid white;
   border-radius: 5px;
@@ -44,8 +37,8 @@
 
 .formButton {
   /* width: 5vw; */
-  background-color: #202020;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: Bebas Neue;
   font-size: 1.5rem;
   cursor: pointer;
@@ -56,8 +49,8 @@
 
 .formButton:hover {
   cursor: pointer;
-  background-color: white;
-  color: #202020;
+  background-color: transparent;
+  color: #ffffff;
 }
 
 .formButton:disabled {
@@ -89,14 +82,17 @@
     line-height: 100%;
   }
 
-  .gradientText {
-    font-size: 5rem;
+  .form {
+    flex-direction: column;
+    width: 90vw;
   }
 
-  .badges {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    font-size: 1em;
+  .form input {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .form button {
+    width: 100%;
   }
 }

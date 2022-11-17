@@ -18,10 +18,11 @@ const Mission = () => {
         </div>
         <div>
           <p className="p-md">
-            Seetizen facilita la ricerca di persone e realtà sul territorio, di
-            diffusione e condivisione delle iniziative in città e fornisce allo
-            stesso tempo uno strumento di storytelling urbano aperto e
-            partecipativo
+            Seetizen mette in rete tutte le realtà sul territorio, consente di
+            conoscere nuove persone e realtà, connettersi facilmente e costruire
+            qualcosa insieme. Facilita il coordinamento e la diffusione delle
+            iniziative sul territorio e semplifica la circolazione di
+            informazioni servendo da ponte tra digitale e reale.
           </p>
         </div>
       </div>

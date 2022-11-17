@@ -17,8 +17,8 @@ const Hero = () => {
             A Social App <br /> for Urban Communities
           </h1>
           <p className="text-light p-md">
-            Una piattaforma indipendente per sostenere la socialità e le
-            iniziative delle comunità locali
+            Una piattaforma indipendente per sostenere la socialità, il
+            coordinamento e le iniziative delle comunità locali
           </p>
           {/* <p className={styles.comingSoon}>Coming Next On:</p> */}
           <span className={styles.badges}>

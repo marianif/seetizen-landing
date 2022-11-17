@@ -18,23 +18,23 @@
 }
 
 .container span {
-  background: linear-gradient(#10b981, #ffea00);
+  background: -webkit-linear-gradient(#ff5757, #ffed1d);
   font-size: large;
   color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10%;
+  width: 4vw;
   aspect-ratio: 1;
   border-radius: 100%;
   font-weight: 600;
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: bold;
   font-family: Prompt;
 }
 
 .label {
-  background: -webkit-linear-gradient(#10b981, #ffea00);
+  background: -webkit-linear-gradient(#ff5757, #ffed1d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.3em;
@@ -60,7 +60,7 @@
   }
 
   .container span {
-    background: linear-gradient(#10b981, #ffea00);
+    background: -webkit-linear-gradient(#ff5757, #ffed1d);
     width: 20%;
     font-size: 1.6em;
   }

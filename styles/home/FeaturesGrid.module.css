@@ -15,7 +15,7 @@
 
 .heading {
   color: #000;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 .grid {
@@ -41,13 +41,20 @@
 
 .gridItem h3 {
   color: #000;
-  font-family: Dosis;
+  font-family: Bebas Neue;
+  font-size: 1.8em;
+  background-color: #000;
+  color: white;
+  padding: 0 20px;
+  transform: rotate(-0.02turn);
+  letter-spacing: 2px;
+  margin-bottom: 5px;
 }
 
 .gridItem p {
   color: rgb(56, 56, 56);
   width: 70%;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .iconContainer {

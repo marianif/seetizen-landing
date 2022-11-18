@@ -3,6 +3,7 @@ import ClipLoader from "react-spinners/ClipLoader"
 import { BsCheck2Circle } from "react-icons/bs"
 import { useRef, useState } from "react"
 import emailjs from "@emailjs/browser"
+import { createSubscriber } from "helpers"
 
 const EMAILJS_PUBLIC_KEY = process.env.EMAILJS_PUBLIC_KEY
 const EMAILJS_SERVICE_ID = process.env.EMAILJS_SERVICE_ID
@@ -25,26 +26,38 @@ const CallToAction = () => {
     try {
       setLoading(true)
       e.preventDefault()
-
-      const res = await emailjs.sendForm(
-        EMAILJS_SERVICE_ID,
-        EMAILJS_TEMPLATE_ID,
-        formRef.current,
-        EMAILJS_PUBLIC_KEY
-      )
-
-      if (res.text === "OK") {
-        setShowSuccess(true)
-        setButton({
-          text: "Fatto!",
-          disabled: true,
-        })
-      }
+      const success = await createSubscriber(value)
+      success && setShowSuccess(true)
       setLoading(false)
+      setButton({ text: "Grande!", disabled: true })
     } catch (error) {
       console.warn(error)
     }
   }
+  // const onSubmit = async (e) => {
+  //   try {
+  //     setLoading(true)
+  //     e.preventDefault()
+
+  //     const res = await emailjs.sendForm(
+  //       EMAILJS_SERVICE_ID,
+  //       EMAILJS_TEMPLATE_ID,
+  //       formRef.current,
+  //       EMAILJS_PUBLIC_KEY
+  //     )
+
+  //     if (res.text === "OK") {
+  //       setShowSuccess(true)
+  //       setButton({
+  //         text: "Fatto!",
+  //         disabled: true,
+  //       })
+  //     }
+  //     setLoading(false)
+  //   } catch (error) {
+  //     console.warn(error)
+  //   }
+  // }
 
   return (
     <div className={styles.container} id="cta">

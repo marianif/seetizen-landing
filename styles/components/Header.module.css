@@ -1,10 +1,8 @@
 .wrapper {
-  display:flex;
+  display: flex;
   flex-direction: row;
   width: 80%;
   margin: 0 auto;
-
-
 }
 
 .logoContainer {
@@ -14,10 +12,10 @@
   object-fit: contain;
   overflow: hidden;
   padding: 5vh 0 5vh 0;
-  cursor: pointer
+  cursor: pointer;
 }
 
-/* Media queries */ 
+/* Media queries */
 @media screen and (max-width: 768px) {
   .logoContainer {
     width: 25vw;

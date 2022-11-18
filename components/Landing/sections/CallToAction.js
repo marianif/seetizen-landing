@@ -60,7 +60,7 @@ const CallToAction = () => {
   // }
 
   return (
-    <div className={styles.container} id="cta">
+    <div className={`${styles.container} gradientBg`} id="cta">
       <a href="#cta">
         <h2 className="text-light">
           Registrati per la beta!

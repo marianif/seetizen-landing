@@ -117,18 +117,6 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
-.gradient-button {
-  background: linear-gradient(to right, #10b981, #ffea00);
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-}
-
-.bg-gradient {
-  background: linear-gradient(to right, #10b981, #ffea00);
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-}
-
 .bg-accent {
   background: #34d399cb !important;
 }
@@ -146,4 +134,50 @@ p {
 
 .bg-white-soft {
   background: whitesmoke;
+}
+
+/* Testing Gradients */
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradientBg {
+  background: radial-gradient(#ffd500, #292609, #020202, #010101);
+  background-size: 200%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
 }

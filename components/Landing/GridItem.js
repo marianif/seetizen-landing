@@ -5,7 +5,7 @@ import {
   BsCardChecklist,
   BsBook,
 } from "react-icons/bs"
-import { HiUserGroup } from "react-icons/hi"
+import { ImBubbles4 } from "react-icons/im"
 import { RiRoadMapLine } from "react-icons/ri"
 
 const SIZE = 42
@@ -19,7 +19,7 @@ const GridItem = ({ item }) => {
         {icon === "search" ? (
           <BsSearch size={SIZE} color={COLOR} />
         ) : icon === "group" ? (
-          <HiUserGroup size={SIZE} color={COLOR} />
+          <ImBubbles4 size={SIZE} color={COLOR} />
         ) : icon === "invitations" ? (
           <BsCardChecklist size={SIZE} color={COLOR} />
         ) : icon === "events" ? (

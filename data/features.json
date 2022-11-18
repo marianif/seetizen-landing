@@ -15,7 +15,7 @@
       },
       {
         "heading": "Programmazione real-time e nel tempo",
-        "paragraph": "Devi organizzare il weekend o sei già in giro e cerchi sul momento qualcosa da fare? La mappa sociale pensa anche a questo"
+        "paragraph": "Devi organizzare il weekend o sei già in giro e cerchi sul momento qualcosa da fare? La mappa sociale ti mostra subito cosa ti circonda"
       }
     ]
   },
@@ -23,19 +23,19 @@
     "img": "/../public/images/share.png",
     "heading": "Partecipazione Attiva",
     "label": "Condividi le iniziative",
-    "impressum": "Un agenda esperienziale condivisa dove i cittadini contribuiscono attivamente alla diffusione della creatività e della produzione urbana, agevolando nuove forme di condivisione e coinvolgimento sul territorio",
+    "impressum": "Un agenda esperienziale condivisa dove i cittadini contribuiscono attivamente alla diffusione delle iniziative e della produzione urbana, agevolando nuove forme di condivisione e coinvolgimento sul territorio. Quello che merita lo decidono le persone, non un algoritmo",
     "previews": [
       {
-        "heading": "Rompi il ghiaccio!",
-        "paragraph": "Senza l'invasività di whatsapp coinvolgi chi vuoi, invita chi c'è. Un evento condiviso è una chance per socializzare"
+        "heading": "Un modo per rompere il ghiaccio",
+        "paragraph": "A volte vogliamo coinvolgere persone che non sentiamo da un po' ma l'invasività di whatsapp ci frena. Coinvolgi chi vuoi, invita chi c'è con un sistema semplice, veloce e poco invasivo"
       },
       {
-        "heading": "Fai girare!",
-        "paragraph": "C'è un evento che ti piace o lo hai organizzato? Non perderti dietro un feed, fallo sapere ovunque senza limitazioni"
+        "heading": "Fai girare",
+        "paragraph": "C'è un evento che ti piace o lo hai organizzato? Non rincorrere un algoritmo, non spendere un capitale in sponsorizzate, non perderti dietro gli hashtag. Contribuisci alla sua diffusione facendolo girare subito senza limitazioni"
       },
       {
-        "heading": "Non dimenticarti più niente!",
-        "paragraph": "La semplicità è la nostra forza, è già tutto sul tuo calendario, non perderti a cercare, ciò che ti interessa è già calendarizzato e a portata di mano"
+        "heading": "Non dimenticarti più niente",
+        "paragraph": "Quante volte hai visto un iniziativa che ti piace o te ne hanno girato una per poi dimenticarla o non trovarla più? Ciò che ti interessa o ti è stato girato viene calendarizzato in automatico e te lo ricordiamo con una semplice notifica"
       }
     ]
   },
@@ -43,19 +43,19 @@
     "img": "/../public/images/discovery.png",
     "heading": "Urban Discovery",
     "label": "Funzione di ricerca locale",
-    "impressum": "I social attuali hanno scarse funzionalità di ricerca, questo genera dispersione e spesso l'impossibilità di scoprire la città. Abbiamo semplificato il processo per trovare di persone, gruppi, collettivi e altre soggettività urbane",
+    "impressum": "I social attuali hanno scarse funzionalità di ricerca, questo genera dispersione e spesso l'impossibilità di scoprire la città. Abbiamo semplificato il processo per trovare persone, gruppi, collettivi e mettere in contatto le varie soggettività urbane, facendo incrociare idee, persone e progetti",
     "previews": [
       {
         "heading": "Scopriamoci",
-        "paragraph": "Con la funzionalità discover scopri tutto facilmente. Persone, gruppi, collettivi, associazioni e tanto di più in città"
+        "paragraph": "Con la funzionalità discover scopri tutto facilmente. Ti basta un click per trovare una lista di persone, gruppi, collettivi, associazioni e tanto di più in città"
       },
       {
         "heading": "Cerchiamoci",
-        "paragraph": "La ricerca, semplice: Digita 'Art..' e trova subito attorno a te chi l'arte la fa, che ne sai, magari ti innamori a una mostra indipendente "
+        "paragraph": "Con un sistema di ricerca su misura per la città trovare persone, gruppi, associazioni e collettivi in base a cià che ti interessa ed entrare subito in contatto non è mai sto così semplice."
       },
       {
         "heading": "Troviamoci",
-        "paragraph": "Fai qualcosa di interessante o vuoi scoprire chi fa ciò che ti interessa? Abbiamo facilitato la ricerca, quindi cerchiamoci! Connettiti con facilmente. con tutta la città"
+        "paragraph": "Fai qualcosa di interessante o vuoi scoprire chi fa ciò che ti interessa? Seetizen aiuta a creare connessione reali, a rompere il muro della divisione, a progettare qualcosa di bello insieme e fare nuove amicizie"
       }
     ]
   },
@@ -63,19 +63,19 @@
     "img": "/../public/images/urban-stories.png",
     "heading": "Urban Storytelling",
     "label": "Fai parlare la città",
-    "impressum": "Le città sono luoghi fatti di attività, momenti e pensieri che meritano uno spazio narrativo inedito. Facilitare la diffusione di storie appare come una soluzione molto preziosa per dare significato e analizzare le città in cui viviamo.",
+    "impressum": "Le città sono luoghi fatti di attività, momenti e pensieri che meritano uno spazio narrativo inedito. Facilitare la diffusione di storie, informazioni e articoli appare come una soluzione molto preziosa per dare significato e analizzare le città in cui viviamo.",
     "previews": [
       {
+        "heading": "L'informazione locale semplificata",
+        "paragraph": "I blog dei siti vengono letti poco e non sono indicizzati. Le newsletter richiano di finire nella sezione spam. I social non ti faranno crescere in organico. Con Urban Stories pensa a scrivere, hai potenzialmente tutta la città come pubblico"
+      },
+      {
         "heading": "narrazioni urbane",
-        "paragraph": "Un nuovo significato alla città e alle storie che essa racconta. Quali saranno le nuove prospettive di narrazione urbana, gli spazi raccontati, cosa nasconde la città e cosa aspetta di essere scoperto? "
+        "paragraph": "Uno spazio in cui informazione locale e storytelling urbano si incontrano e contribuiscono a creare nuova consapevolezza sulle storie dei quartieri, degli enti, delle persone, delle iniziative che abitano la città"
       },
       {
-        "heading": "Quali storie?",
-        "paragraph": "A volte le storie più interessanti sono dietro l'angolo e spesso non lo sappiamo. Ogni angolo è una prospettiva, raccontiamola"
-      },
-      {
-        "heading": "Quali storie?",
-        "paragraph": "A volte le storie più interessanti sono dietro l'angolo e spesso non lo sappiamo. Ogni angolo è una prospettiva, raccontiamola"
+        "heading": "Redazioni aperte e diffuse",
+        "paragraph": "Aggiorna sulla attività della tua associazione, del tuo collettivo, dove proporre le tue interviste, i tuoi comunicati, le curiosità sulla città e tanto altro. Diamo voce a ogni prospettiva tramite un processo di narrazione urbana eterogeneo, aperto e partecipativo"
       }
     ]
   }

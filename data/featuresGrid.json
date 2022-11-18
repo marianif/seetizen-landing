@@ -1,23 +1,23 @@
 [
   {
     "heading": "Eventi",
-    "paragraph": "Crea, cerca, condividi eventi ed iniziative con tutta la città",
+    "paragraph": "Dal grande evento alla piccola iniziativa di quartiere ognuno merita lo stesso spazio. Crea, cerca, condividi eventi ed iniziative con tutta la città",
     "icon": "events"
   },
   {
     "heading": "Search",
-    "paragraph": "Cerca persone, associazioni, collettivi e crea connessioni reali",
+    "paragraph": "Una funzione di ricerca per trovare persone, associazioni, collettivi e altri soggetti ed entrare in contatto con la città",
     "icon": "search"
   },
 
   {
-    "heading": "Gruppi",
-    "paragraph": "Crea gruppi e gestisci molteplici account come admin o editor",
+    "heading": "Wall",
+    "paragraph": "Una bacheca in cui chiedere informazioni, pubblicare le tue call to action, condividere idee e interagire con la città",
     "icon": "group"
   },
   {
     "heading": "News",
-    "paragraph": "Pubblica articoli, storie e post. Fai parlare la città",
+    "paragraph": "Lo spazio per raccontare storie, pubblicare articoli e far parlare la città oltre i canali di informazione tradizionali",
     "icon": "news"
   }
 ]

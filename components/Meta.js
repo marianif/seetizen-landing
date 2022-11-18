@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from "next/head"
 
 const Meta = ({ title, description, keywords }) => {
   return (
@@ -9,12 +9,13 @@ const Meta = ({ title, description, keywords }) => {
       <meta name="description" content={description} />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-  );
-};
+  )
+}
 
 Meta.defaultProps = {
-  title: "Seetizen | See you around",
+  title: "Seetizen | Make the City Speak",
   description: "",
-  keywords: "giovani, attivismo, app, innovazione, sociale, social, innovation",
-};
-export default Meta;
+  keywords:
+    "giovani, attivismo, app, innovazione, sociale, social, innovation, social good, local network",
+}
+export default Meta

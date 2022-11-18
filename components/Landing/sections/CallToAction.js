@@ -48,10 +48,12 @@ const CallToAction = () => {
 
   return (
     <div className={styles.container} id="cta">
-      <h2 className="text-light">
-        Registrati per la beta!
-        {/* <span className={`gradient-text ${styles.gradientText}`}>Seetizen</span> */}
-      </h2>
+      <a href="#cta">
+        <h2 className="text-light">
+          Registrati per la beta!
+          {/* <span className={`gradient-text ${styles.gradientText}`}>Seetizen</span> */}
+        </h2>
+      </a>
       <div className={styles.formContainer}>
         <form ref={formRef} className={styles.form}>
           <input

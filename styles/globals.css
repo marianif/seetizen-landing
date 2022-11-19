@@ -140,7 +140,10 @@ p {
 
 @-webkit-keyframes Gradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 25%;
+  }
+  25% {
+    background-position: 25% 50%;
   }
   50% {
     background-position: 100% 50%;
@@ -152,7 +155,10 @@ p {
 
 @-moz-keyframes Gradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 25%;
+  }
+  25% {
+    background-position: 25% 50%;
   }
   50% {
     background-position: 100% 50%;
@@ -164,7 +170,10 @@ p {
 
 @keyframes Gradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 25%;
+  }
+  25% {
+    background-position: 25% 50%;
   }
   50% {
     background-position: 100% 50%;
@@ -175,8 +184,8 @@ p {
 }
 
 .gradientBg {
-  background: radial-gradient(#ffd500, #292609, #020202, #010101);
-  background-size: 200%;
+  background: radial-gradient(#ff2200, #292609, #020202, #010101);
+  background-size: 100%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;

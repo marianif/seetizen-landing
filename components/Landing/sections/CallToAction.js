@@ -2,12 +2,7 @@ import styles from "@/styles/home/CTA.module.css"
 import ClipLoader from "react-spinners/ClipLoader"
 import { BsCheck2Circle } from "react-icons/bs"
 import { useRef, useState } from "react"
-import emailjs from "@emailjs/browser"
 import { createSubscriber } from "helpers"
-
-const EMAILJS_PUBLIC_KEY = process.env.EMAILJS_PUBLIC_KEY
-const EMAILJS_SERVICE_ID = process.env.EMAILJS_SERVICE_ID
-const EMAILJS_TEMPLATE_ID = process.env.EMAILJS_TEMPLATE_ID
 
 // Icons properties
 const COLOR = "#8ffe09"

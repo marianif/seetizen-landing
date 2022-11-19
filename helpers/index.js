@@ -1,5 +1,5 @@
 const MAILERLITE_API_KEY = process.env.MAILERLITE_API_KEY
-const GROUP_ID = "72121931268097895"
+const GROUP_ID = "72202517914584314"
 
 export const createSubscriber = async (email) => {
   const BASE_URL = `https://connect.mailerlite.com/api/subscribers/`

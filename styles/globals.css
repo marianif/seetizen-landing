@@ -183,10 +183,3 @@ p {
   }
 }
 
-.gradientBg {
-  background: radial-gradient(#ff2200, #292609, #020202, #010101);
-  background-size: 100%;
-  -webkit-animation: Gradient 15s ease infinite;
-  -moz-animation: Gradient 15s ease infinite;
-  animation: Gradient 15s ease infinite;
-}

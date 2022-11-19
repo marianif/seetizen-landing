@@ -10,7 +10,7 @@ const SIZE = 24
 
 const Hero = () => {
   return (
-    <div className={`${styles.container} gradientBg`}>
+    <div className={`${styles.container}`}>
       <div className={styles.innerTop}>
         <div className={styles.column}>
           <h1 className={styles.title}>

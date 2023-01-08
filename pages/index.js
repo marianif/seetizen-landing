@@ -7,17 +7,19 @@ import {
   Benefits,
   CallToAction,
 } from "../components/Landing"
+import ComingSoon from "@/components/ComingSoon/ComingSoon"
 
 export default function Home() {
   return (
     <Layout headerType="landing">
-      <Hero />
+      <ComingSoon />
+      {/* <Hero />
       <Mission />
       <FeaturesGrid />
       <Features />
       <Benefits />
       <CallToAction />
-      <FloatingBar />
+      <FloatingBar /> */}
     </Layout>
   )
 }

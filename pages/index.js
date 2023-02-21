@@ -12,14 +12,14 @@ import ComingSoon from "@/components/ComingSoon/ComingSoon"
 export default function Home() {
   return (
     <Layout headerType="landing">
-      <ComingSoon />
-      {/* <Hero />
+      {/* <ComingSoon /> */}
+      <Hero />
       <Mission />
       <FeaturesGrid />
       <Features />
       <Benefits />
       <CallToAction />
-      <FloatingBar /> */}
+      <FloatingBar />
     </Layout>
   )
 }

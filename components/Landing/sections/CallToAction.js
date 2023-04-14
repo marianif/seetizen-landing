@@ -94,7 +94,7 @@ const CallToAction = () => {
         {showSuccess && (
           <div className={styles.success}>
             <BsCheck2Circle size={30} color={COLOR} />
-            <p>Grazie per la tua registrazione!</p>
+            <p>Sarai tra i primi/e a ricevere news su Seetizen!</p>
           </div>
         )}
       </div>

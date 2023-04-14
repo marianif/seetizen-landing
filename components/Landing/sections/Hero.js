@@ -20,7 +20,7 @@ const Hero = () => {
             Una piattaforma indipendente per sostenere la socialità, il
             coordinamento e le iniziative delle comunità locali
           </p>
-          {/* <p className={styles.comingSoon}>Coming Next On:</p> */}
+          <p className={styles.comingSoon}>Presto disponibile su:</p>
           <span className={styles.badges}>
             <AppStoreBadge
               title={"google play"}
